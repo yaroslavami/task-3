@@ -1,0 +1,53 @@
+body {
+    width: 1100px;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(253, 226, 191);
+    color: rgb(172, 54, 11);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+
+footer,
+header,
+section {
+    padding: 17px 0;
+    border: 0.6px dashed rgb(216, 215, 215);
+    vertical-align: center
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 367px;
+}
+
+.section {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.main-header,
+.copyright {
+    text-align: center;
+}
